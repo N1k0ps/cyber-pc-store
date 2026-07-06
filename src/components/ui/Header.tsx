@@ -1,9 +1,9 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { ShoppingCart, User, Cpu, Search, Settings } from 'lucide-react'; // Добавили Settings
-import { useCart } from 'e:/cyber-pc-store/src/store/useCart'; // Вернули чистый относительный путь
-import { supabase } from 'e:/cyber-pc-store/src/utils/supabase'; // Вернули чистый относительный путь
+import { ShoppingCart, User, Cpu, Search, Settings } from 'lucide-react'; 
+import { useCart } from '../../store/useCart'; 
+import { supabase } from '../../utils/supabase'; 
 
 export default function Header() {
   const [isAuth, setIsAuth] = useState(false);
@@ -97,7 +97,7 @@ export default function Header() {
             )}
           </Link>
 
-          {/* ОБНОВЛЕННЫЙ ДИНАМИЧЕСКИЙ БЛОК АВТОРИЗАЦИИ С АДМИНКОЙ */}
+          {/* ДИНАМИЧЕСКИЙ БЛОК АВТОРИЗАЦИИ С АДМИНКОЙ */}
           {isAuth ? (
             <div className="flex items-center gap-3">
               {/* Потайная шестерёнка — рендерится строго если ты админ */}
