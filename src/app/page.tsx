@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../components/ui/ProductCard'
-import { supabase } from '../../utils/supabase'
+import { supabase } from '../utils/supabase'
 import { LayoutGrid, Laptop, Monitor, HardDrive, Loader2 } from 'lucide-react';
 
 const CATEGORIES = [

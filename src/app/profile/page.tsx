@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { supabase } from 'e:/cyber-pc-store/src/utils/supabase';
+import { supabase } from '../../utils/supabase'
 import { 
   User, Save, ArrowLeft, Loader2, LogOut, 
   Settings, Bell, Cpu, FileText, Smartphone, MapPin, CheckCircle2 

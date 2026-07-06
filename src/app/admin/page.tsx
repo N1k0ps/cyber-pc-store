@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { supabase } from 'e:/cyber-pc-store/src/utils/supabase';
+import { supabase } from '../../utils/supabase'
 import { Plus, Trash2, Image as ImageIcon, Loader2, ShieldAlert, Laptop, Cpu, Monitor, Briefcase, LayoutGrid } from 'lucide-react';
 
 // Доступные категории
