@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { supabase } from 'E:/cyber-pc-store/src/utils/supabase'; // Наш относительный путь к клиенту
+import { supabase } from '../../utils/supabase' // Наш относительный путь к клиенту
 
 export default function AuthPage() {
   const router = useRouter();

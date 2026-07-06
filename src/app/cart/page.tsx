@@ -1,8 +1,8 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { useCart } from 'e:/cyber-pc-store/src/store/useCart';
-import { supabase } from 'e:/cyber-pc-store/src/utils/supabase';
+import { useCart } from '../../store/useCart'
+import { supabase } from '../../utils/supabase'
 import { 
   Trash2, Plus, Minus, ShoppingBag, ArrowLeft, 
   CreditCard, Truck, User, Smartphone, Loader2, CheckCircle2 
